@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Link to compiled CSS from main.scss, which imports bootstrap.scss -->
+  <link rel="stylesheet" href="main.css" />
+  <!-- Link to bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Header -->
+
+  <section class="container">
+    <div class="row justify-content-center">
+      <!-- Text Column -->
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <div class="text-center">
+          <h1 class="mb-3 mt-5 custom-font fw-normal">How are we to<br>LISTEN<br>to you<br>LLAMA?</h1>
+          <button id="custom-button" class="btn btn-primary btn-lg py-3 fw-bold w-50">DISCOVER</button>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-12 col-md-6">
+        <img src="images/llama.png" class="img-fluid" alt="Llama">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Look Learn Love -->
+
+  <section id="custom-section" class="custom-section">
+    <div class="row py-5">
+      <div class="col-md-4 text-center mb-3">
+        <i class="bi bi-eye fs-1 custom-color"></i>
+        <div class="icon-container">
+          <i class="your-icon-class"></i>
+        </div>
+        <h2 class="custom-color">Look</h2>
+        <p class="lead fw-medium">identify common llama behavior</p>
+      </div>
+      <div class="col-md-4 text-center mb-3">
+        <i class="bi bi-book fs-1 custom-color"></i>
+        <div class="icon-container">
+          <i class="your-icon-class"></i>
+        </div>
+        <h2 class="custom-color">Learn</h2>
+        <p class="lead fw-medium">understand communication cues</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="bi bi-heart fs-1 custom-color"></i>
+        <div class="icon-container">
+          <i class="your-icon-class"></i>
+        </div>
+        <h2 class="custom-color">Love</h2>
+        <p class="lead fw-medium">build a positive relationship</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonial -->
+
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <!-- Section Title -->
+        <h2 class="mb-4">What People Say</h2>
+
+        <!-- Testimonial Text -->
+        <blockquote class="blockquote">
+          <p class="mb-0 fst-italic">The interactive lessons and expert insights have empowered me to connect with llamas on a
+            whole new level.</p>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section-->
+
+  <section id="custom-section">
+    <div class="container py-5">
+      <div class="row">
+
+        <!-- First Column -->
+        <div class="col-md-6">
+          <div class="mb-2 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="custom-color mb-3">Hi! I'm Jacky</h2>
+            <img src="images/jacky.jpg" alt="Jacky with Llama" class="img-fluid">
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-md-6">
+
+          <form class="mt-2">
+            <div class="d-flex align-items-center justify-content-center">
+              <h2 class="custom-color mb-3">Get In Touch</h2>
+            </div>
+
+            <div class="row">
+              <!-- First Name -->
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control placeholder-color" id="firstname" placeholder="First Name">
+
+              </div>
+
+              <!-- Last Name -->
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control placeholder-color" id="lastname" placeholder="Last Name">
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control placeholder-color" id="emailAddress" placeholder="Email Address">
+              <div class="form-text">Your password must be 8-20 characters long, and contain letters and numbers.</div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control placeholder-color" id="comments" rows="3" placeholder="Comments"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="newsletter">
+              <label class="form-check-label fw-medium" for="newsletter">Join our newsletter</label>
+            </div>
+            <button type="submit" id="custom-button" class="btn btn-primary fw-bold py-3 w-100">SUBMIT</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="custom-footer">
+    <div class="p-4">
+      <p class="text-white fs-5 ps-3">&copy; Jacky Sawatzky 2023</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
